@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+}
+
+#game-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+}
+
+
+#delay-message {
+  display: none;
+}
+#rematch-button {
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#start-button {
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#score-board {
+  margin-top: 10px;
+}
+
+#high-score, #current-score, #delay-message {
+  margin: 5px 0;
+}
+
+#game-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.rod {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 10px;
+  color: black;
+}
+
+#rod1 {
+  top: 0;
+}
+
+#rod2 {
+  bottom: 0;
+}
+
+.ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+}

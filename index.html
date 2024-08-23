@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <div id="game-info">
+      <button id="start-button">Start Game</button>
+      <button id="rematch-button" style="display: none;">Rematch</button>
+      <div id="score-board">
+        <div id="high-score">High Score: 0</div>
+        <div id="current-score">Current Score: 0</div>
+        <div id="delay-message">Game starts in <span id="countdown">2</span> seconds...</div>
+      </div>
+    </div>
+    <div id="game-container">
+      <div id="rod1" class="rod">Rod 1</div>
+      <div id="rod2" class="rod">Rod 2</div>
+      <div id="ball" class="ball"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
