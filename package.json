@@ -1,11 +1,11 @@
 {
   "name": "ping-pong-game",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ever heard of 'Ping Pong'? You might have; if not go search on the web.\nWell, we will be making a smaller and easier version of this game.",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html --out-dir public/dist"
   },
   "dependencies": {
     "parcel-bundler": "^1.6.1"
