@@ -23,7 +23,7 @@ let ballSpeedY = 2;
 let score = 0;
 let gameInterval;
 
-const rodSpeed = 10;
+const rodSpeed = 20;
 let maxScore = localStorage.getItem('maxScore') || 0;
 let maxScoreName = localStorage.getItem('maxScoreName') || '';
 
